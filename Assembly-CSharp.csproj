@@ -71,10 +71,7 @@
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\Scripts\BuildingGENERATOR.cs" />
-    <Compile Include="Assets\Scripts\BuildingModuleGen.cs" />
     <Compile Include="Assets\Scripts\BuildingPlacementGen.cs" />
-    <Compile Include="Assets\Scripts\BuildingProfile.cs" />
-    <Compile Include="Assets\Scripts\BuildingTowerGen.cs" />
     <Compile Include="Assets\Scripts\EnemyScoutAI.cs" />
     <Compile Include="Assets\Scripts\Explosion.cs" />
     <Compile Include="Assets\Scripts\GameOptionControls.cs" />
@@ -82,6 +79,9 @@
     <Compile Include="Assets\Scripts\LootTable.cs" />
     <Compile Include="Assets\Scripts\ModuleLootGen.cs" />
     <Compile Include="Assets\Scripts\PlayerStats.cs" />
+    <Compile Include="Assets\Scripts\Unused Scripts\BuildingModuleGen.cs" />
+    <Compile Include="Assets\Scripts\Unused Scripts\BuildingProfile.cs" />
+    <Compile Include="Assets\Scripts\Unused Scripts\BuildingTowerGen.cs" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Unity/Survival Game _Game Tools/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

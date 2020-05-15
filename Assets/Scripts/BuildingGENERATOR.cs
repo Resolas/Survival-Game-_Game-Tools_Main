@@ -18,7 +18,13 @@ public class BuildingGENERATOR : MonoBehaviour
 
     private Transform myPos;
 
-    public int buildingHeight;
+    private int buildingHeight;
+
+    [Header("Height Generation")]
+    [Range(1,50)]
+    public int hMax;
+    [Range(1,50)]
+    public int hMin;
     /*
         private void OnGUI()
         {
@@ -34,7 +40,7 @@ public class BuildingGENERATOR : MonoBehaviour
 
 
         myPos = GetComponent<Transform>();
-        buildingHeight = Random.Range(15,20);
+        buildingHeight = Random.Range(hMin,hMax);
         
         for (int i = 0; i < buildingHeight; i ++)
         {
