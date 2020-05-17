@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 579
     height: 676
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 881, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 164
+  controlID: 165
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
-  controlID: 165
+  controlID: 166
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -212,8 +212,8 @@ MonoBehaviour:
     y: 0
     width: 253
     height: 676
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -238,8 +238,8 @@ MonoBehaviour:
     y: 0
     width: 645
     height: 676
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -271,7 +271,7 @@ MonoBehaviour:
   m_MinSize: {x: 285, y: 271}
   m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
-  controlID: 166
+  controlID: 167
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -353,7 +353,7 @@ MonoBehaviour:
   - {fileID: 17}
   - {fileID: 16}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -611,9 +611,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2534.92, y: 758.02576, z: 18.842896}
+    m_Target: {x: 4068.0398, y: 3317.7124, z: 3438.479}
     speed: 2
-    m_Value: {x: 2534.92, y: 758.02576, z: 18.842896}
+    m_Value: {x: 4068.0398, y: 3317.7124, z: 3438.479}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -659,13 +659,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.21
   m_Rotation:
-    m_Target: {x: -0.06800055, y: -0.4610073, z: 0.035546515, w: -0.88408905}
+    m_Target: {x: -0.08771531, y: -0.8985027, z: 0.21022578, w: -0.37527898}
     speed: 2
-    m_Value: {x: -0.06783892, y: -0.4649743, z: 0.03585164, w: -0.8819929}
+    m_Value: {x: -0.09093325, y: -0.8955162, z: 0.21520273, w: -0.37877396}
   m_Size:
-    m_Target: 496.0729
+    m_Target: 6149.4165
     speed: 2
-    m_Value: 455.11276
+    m_Value: 6439.1797
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -818,19 +818,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Prefabs
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Unity\Survival Game _Game Tools
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6a4f0000
-    m_LastClickedID: 20330
+    m_SelectedIDs: 444f0000
+    m_LastClickedID: 20292
     m_ExpandedIDs: 00000000264f0000284f00002a4f00002c4f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -890,18 +890,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c623000000000000863e0000e4360000542a01002c290100502a01004c2a0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: BuildingTowerGen
-      m_OriginalName: BuildingTowerGen
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 12062
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_CreateAssetUtility:
