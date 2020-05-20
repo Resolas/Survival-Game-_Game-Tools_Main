@@ -77,11 +77,15 @@
     <Compile Include="Assets\Scripts\GameOptionControls.cs" />
     <Compile Include="Assets\Scripts\HUD.cs" />
     <Compile Include="Assets\Scripts\LootTable.cs" />
+    <Compile Include="Assets\Scripts\MenuSystem.cs" />
     <Compile Include="Assets\Scripts\ModuleLootGen.cs" />
+    <Compile Include="Assets\Scripts\NukeAI.cs" />
+    <Compile Include="Assets\Scripts\PlayerPrefs.cs" />
     <Compile Include="Assets\Scripts\PlayerStats.cs" />
     <Compile Include="Assets\Scripts\Unused Scripts\BuildingModuleGen.cs" />
     <Compile Include="Assets\Scripts\Unused Scripts\BuildingProfile.cs" />
     <Compile Include="Assets\Scripts\Unused Scripts\BuildingTowerGen.cs" />
+    <Compile Include="Assets\Scripts\Unused Scripts\TESTAI.cs" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Unity/Survival Game _Game Tools/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

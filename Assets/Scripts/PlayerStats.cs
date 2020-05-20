@@ -12,10 +12,22 @@ public class PlayerStats : MonoBehaviour
     public static float water = 100f;
     public static float radiation = 0f;
 
+    // Nuke Variables
+
+    public static bool nuke = false;
+    public static float nukeTimer = 0f;
+
     #endregion
     // Update is called once per frame
     void Update()
     {
+
         
+
+
     }
+
+
+    
+
 }
