@@ -20,7 +20,8 @@ public class EnemyScoutAI : MonoBehaviour
     private NavMeshAgent agent;
     private Vector3 destination;
     public float range = 1000f;
-    
+    public float launchTimer = 10f;
+    public float maxTimer = 10f;
 
     public Transform targetObject;
     
@@ -29,13 +30,13 @@ public class EnemyScoutAI : MonoBehaviour
     {
         Vector3 distance = targetObject.position - transform.position;
         float distMg = distance.sqrMagnitude / 1000;
-        Debug.Log(distMg);
+      //  Debug.Log(distMg);
         if (targetObject && distMg < range)
         {
             isTargetVisiblePys();
         }
 
-
+        LaunchNuke();
 
     }
 
@@ -83,17 +84,55 @@ public class EnemyScoutAI : MonoBehaviour
         {
             isVisible = true;
             Debug.DrawRay(transform.position, direction * hit.distance, Color.yellow);
-            Debug.Log("Is Visible");
+         //   Debug.Log("Is Visible");
+
+            agent.SetDestination(targetObject.position);
         }
         else
         {
             isVisible = false;
             Debug.DrawRay(transform.position, direction * 1000, Color.white);
-            Debug.Log("Is NOT Visible");
+        //    Debug.Log("Is NOT Visible");
         }
     
     }
-    
+
+    public void LaunchNuke()
+    {
+
+        Vector3 distance = targetObject.position - transform.position;
+        float distMg = distance.sqrMagnitude / 1000;
+
+        if (isVisible == true && distMg < range / 2 && PlayerStats.nuke != true)        // If nuke is not launched and within half range and in LOS, countdown
+        {
+            if (launchTimer >= 0)
+            {
+                launchTimer -= 1 * Time.deltaTime;
+            }
+
+
+            if (launchTimer <= 0)
+            {
+
+
+                PlayerStats.targetScout = gameObject;  // sets the target position for nuke to spawn on top of
+                PlayerStats.nuke = true;
+
+            }
+
+        }
+        else
+        {
+
+            if (launchTimer <= maxTimer)
+            {
+                launchTimer += 1 * Time.deltaTime;
+            }
+
+        }
+
+    }
+
 
     private void OnDrawGizmos()
     {
