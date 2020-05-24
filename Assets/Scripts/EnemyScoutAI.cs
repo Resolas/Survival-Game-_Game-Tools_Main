@@ -30,10 +30,16 @@ public class EnemyScoutAI : MonoBehaviour
     {
         Vector3 distance = targetObject.position - transform.position;
         float distMg = distance.sqrMagnitude / 1000;
-      //  Debug.Log(distMg);
+        //  Debug.Log(distMg);
         if (targetObject && distMg < range)
         {
             isTargetVisiblePys();
+        }
+        else
+        {
+          //  Debug.Log("WANDER");
+            RandomNavSphere(transform.position,range,8);
+
         }
 
         LaunchNuke();
@@ -130,6 +136,21 @@ public class EnemyScoutAI : MonoBehaviour
             }
 
         }
+
+    }
+
+    public static Vector3 RandomNavSphere(Vector3 origin, float dist, int layerMask)
+    {
+        Vector3 randomPos = Random.insideUnitSphere * dist;
+        randomPos += origin;
+        NavMeshHit navHit;
+        NavMesh.SamplePosition(randomPos, out navHit, dist, layerMask);
+        return navHit.position;
+
+    }
+
+    public void Wander()
+    {
 
     }
 
