@@ -10554,6 +10554,7 @@ GameObject:
   - component: {fileID: 7903124949717295149}
   - component: {fileID: 7903124949717295148}
   - component: {fileID: -9120492273907368465}
+  - component: {fileID: 469846010036315894}
   m_Layer: 0
   m_Name: ArmouryModule
   m_TagString: Structure
@@ -46050,6 +46051,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4b40a2762427042418b7f9299551b519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &469846010036315894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7903124949717295151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e68a5d726a71494f89f3453bb94bfda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &8515974319005724284

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2745552e58c69d4593447e0ebc52b9f, type: 3}
+  m_Name: ArmouryModuleLoot
+  m_EditorClassIdentifier: 
+  lootList:
+  - {fileID: 1458847577881859483, guid: 97fbc0c3139c0f842bd5fff3486179eb, type: 3}
+  - {fileID: 6832579441957058075, guid: e38eb5c27b1c9f84a8d7123e130536d3, type: 3}
+  - {fileID: 4809514443655015384, guid: 1b2bc27517916fa41b53aca37a29109d, type: 3}

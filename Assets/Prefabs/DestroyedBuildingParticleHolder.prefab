@@ -47,6 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 12
+  timeDestroyComp: 2
   destroyRigidBody: 0
 --- !u!1 &4476136220933684019
 GameObject:
@@ -9656,6 +9657,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 10
+  timeDestroyComp: 2
   destroyRigidBody: 0
 --- !u!1 &8488962392430311997
 GameObject:
@@ -14501,6 +14503,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 10
+  timeDestroyComp: 2
   destroyRigidBody: 0
 --- !u!1 &8648235647118236914
 GameObject:
@@ -16921,13 +16924,22 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - serializedVersion: 3
-          time: 0.44358972
-          value: 0.56896555
+          time: 0
+          value: 0
           inSlope: 0
           outSlope: 0
           tangentMode: 0
           weightedMode: 0
           inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.26176596
+          value: 0.461208
+          inSlope: 0.091160744
+          outSlope: 0.091160744
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 1
           outWeight: 0.33333334
         - serializedVersion: 3
           time: 1
@@ -19364,4 +19376,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 10
+  timeDestroyComp: 2
   destroyRigidBody: 0

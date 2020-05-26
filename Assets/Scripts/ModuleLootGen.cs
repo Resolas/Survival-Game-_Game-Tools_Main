@@ -21,9 +21,9 @@ public class ModuleLootGen : MonoBehaviour
         {
             rngLoot = Random.Range(0,myLootTable.lootList.Length);
             int chance = Random.Range(0,100);
-            if (chance < 100)
+            if (chance < spawnRate)
             {
-                Instantiate(myLootTable.lootList[rngLoot], itemGenPos[i]);
+                Instantiate(myLootTable.lootList[rngLoot], itemGenPos[i].position,Quaternion.identity);
             }
 
 

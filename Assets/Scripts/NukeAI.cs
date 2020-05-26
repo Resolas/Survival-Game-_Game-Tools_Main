@@ -34,8 +34,9 @@ public class NukeAI : MonoBehaviour
         if (Physics.Raycast(transform.position,Vector3.down, out hit,explodeDist,mask))
         {
             Debug.Log("TESTRAY");
-            Instantiate(explosion,gameObject.transform.position,Quaternion.identity);
             PlayerStats.nuke = false;
+            Instantiate(explosion,gameObject.transform.position,Quaternion.identity);
+            
 
             Destroy(gameObject);
         }

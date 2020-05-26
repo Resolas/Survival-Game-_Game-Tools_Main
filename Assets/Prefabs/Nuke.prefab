@@ -208,8 +208,8 @@ ParticleSystemForceField:
     m_GravityCurve:
       serializedVersion: 2
       minMaxState: 3
-      scalar: -30
-      minScalar: -10
+      scalar: -10
+      minScalar: -5
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -367,7 +367,7 @@ ParticleSystemForceField:
     m_DragCurve:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1.48
+      scalar: 0.05
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -525,7 +525,7 @@ ParticleSystemForceField:
         m_PostInfinity: 2
         m_RotationOrder: 4
     m_MultiplyDragByParticleSize: 0
-    m_MultiplyDragByParticleVelocity: 0
+    m_MultiplyDragByParticleVelocity: 1
 --- !u!1 &1938796786505869054
 GameObject:
   m_ObjectHideFlags: 0
@@ -10282,7 +10282,7 @@ MonoBehaviour:
   isGlobal: 0
   blendDistance: 2000
   weight: 1
-  priority: 0
+  priority: 100
 --- !u!114 &934568659244560863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10295,8 +10295,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f2df5ac6d1adfa4fb0da1127b2581cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lerpTo: 0
-  time: 5
+  speed: 0.05
+  prValue: 1
 --- !u!1 &4832973212547695824
 GameObject:
   m_ObjectHideFlags: 0

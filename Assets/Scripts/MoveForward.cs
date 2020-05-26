@@ -10,9 +10,10 @@ public class MoveForward : MonoBehaviour
         myPos = GetComponent<Vector3>();
     }
     private Vector3 myPos;
+    public float speed = 5f;
     // Update is called once per frame
     void FixedUpdate()
     {
-        transform.position += transform.forward * 2;
+        transform.position += transform.forward * speed;
     }
 }

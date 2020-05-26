@@ -12631,6 +12631,7 @@ GameObject:
   - component: {fileID: 4580722599194589392}
   - component: {fileID: 4580722599194589399}
   - component: {fileID: 5386970862452522999}
+  - component: {fileID: 4895422187284817175}
   m_Layer: 0
   m_Name: QuartersModule
   m_TagString: Structure
@@ -27938,6 +27939,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4b40a2762427042418b7f9299551b519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4895422187284817175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4580722599194589393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e68a5d726a71494f89f3453bb94bfda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4580722600363775361

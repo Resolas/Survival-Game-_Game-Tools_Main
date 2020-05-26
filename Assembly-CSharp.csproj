@@ -70,8 +70,11 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\Scripts\AttackDroneAI.cs" />
     <Compile Include="Assets\Scripts\BuildingGENERATOR.cs" />
     <Compile Include="Assets\Scripts\BuildingPlacementGen.cs" />
+    <Compile Include="Assets\Scripts\BulletScript.cs" />
+    <Compile Include="Assets\Scripts\DayNightCycle.cs" />
     <Compile Include="Assets\Scripts\DestroySelf.cs" />
     <Compile Include="Assets\Scripts\EnemyScoutAI.cs" />
     <Compile Include="Assets\Scripts\Explosion.cs" />
@@ -88,6 +91,7 @@
     <Compile Include="Assets\Scripts\PlayerPrefs.cs" />
     <Compile Include="Assets\Scripts\PlayerStats.cs" />
     <Compile Include="Assets\Scripts\SpawnWeatherFields.cs" />
+    <Compile Include="Assets\Scripts\StructureCheck.cs" />
     <Compile Include="Assets\Scripts\Unused Scripts\BuildingModuleGen.cs" />
     <Compile Include="Assets\Scripts\Unused Scripts\BuildingProfile.cs" />
     <Compile Include="Assets\Scripts\Unused Scripts\BuildingTowerGen.cs" />

@@ -13,12 +13,20 @@ public class LerpPostRender : MonoBehaviour
 
     private PostProcessVolume myPostRender;
     [SerializeField]
-    private float lerpTo = 0f;
-    public float time = 5;
+   // private float lerpTo = 0f;
+    public float speed = 0.3f;
+    public float prValue = 1f;
     private void FixedUpdate()
     {
 
-        myPostRender.weight = Mathf.Lerp(myPostRender.weight,lerpTo,Time.deltaTime);
+        //    myPostRender.weight = Mathf.Lerp(myPostRender.weight,lerpTo,Time.deltaTime);
+
+        if (prValue > 0)
+        {
+            prValue -= speed * Time.deltaTime;
+        }
+
+        myPostRender.weight = prValue;
 
     }
 

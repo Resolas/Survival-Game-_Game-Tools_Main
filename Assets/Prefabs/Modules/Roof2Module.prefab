@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4756092588192776757}
   - component: {fileID: 4756092588192776754}
   - component: {fileID: 4756092588192776755}
+  - component: {fileID: 1156772769158588614}
   m_Layer: 0
   m_Name: Roof2Module
   m_TagString: Structure
@@ -2914,6 +2915,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &1156772769158588614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4756092588192776752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e68a5d726a71494f89f3453bb94bfda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5591467011806581100
 GameObject:
   m_ObjectHideFlags: 0

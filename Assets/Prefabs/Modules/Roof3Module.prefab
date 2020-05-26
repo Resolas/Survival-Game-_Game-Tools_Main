@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 5459189404192513469}
   - component: {fileID: 5459189404192513470}
   - component: {fileID: 5459189404192513471}
+  - component: {fileID: 5344990117504720197}
   m_Layer: 0
   m_Name: Roof3Module
-  m_TagString: Untagged
+  m_TagString: Structure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4611,3 +4612,15 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &5344990117504720197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5459189404192513464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e68a5d726a71494f89f3453bb94bfda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
