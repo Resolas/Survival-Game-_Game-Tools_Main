@@ -9,6 +9,7 @@ ScriptsOnlyBuild:
     - BulletScript
     - DayNightCycle
     - DestroySelf
+    - DisableWhileActive
     - EnemyScoutAI
     - EnemyStats
     - Explosion
@@ -118,93 +119,95 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11304}
     - Class: 114
-      Script: {instanceID: 11326}
+      Script: {instanceID: 11316}
     - Class: 114
-      Script: {instanceID: 11414}
+      Script: {instanceID: 11328}
     - Class: 114
-      Script: {instanceID: 11456}
+      Script: {instanceID: 11416}
     - Class: 114
-      Script: {instanceID: 11468}
+      Script: {instanceID: 11458}
     - Class: 114
-      Script: {instanceID: 11536}
+      Script: {instanceID: 11470}
     - Class: 114
-      Script: {instanceID: 11574}
+      Script: {instanceID: 11490}
     - Class: 114
-      Script: {instanceID: 11632}
+      Script: {instanceID: 11540}
     - Class: 114
-      Script: {instanceID: 11662}
+      Script: {instanceID: 11578}
     - Class: 114
-      Script: {instanceID: 11718}
+      Script: {instanceID: 11636}
     - Class: 114
-      Script: {instanceID: 11810}
+      Script: {instanceID: 11666}
     - Class: 114
-      Script: {instanceID: 11872}
+      Script: {instanceID: 11722}
     - Class: 114
-      Script: {instanceID: 11878}
+      Script: {instanceID: 11814}
     - Class: 114
-      Script: {instanceID: 11936}
+      Script: {instanceID: 11876}
     - Class: 114
-      Script: {instanceID: 12174}
+      Script: {instanceID: 11882}
     - Class: 114
-      Script: {instanceID: 12218}
+      Script: {instanceID: 11940}
     - Class: 114
-      Script: {instanceID: 12322}
+      Script: {instanceID: 12178}
     - Class: 114
-      Script: {instanceID: 12386}
+      Script: {instanceID: 12222}
     - Class: 114
-      Script: {instanceID: 12484}
+      Script: {instanceID: 12326}
+    - Class: 114
+      Script: {instanceID: 12390}
     - Class: 114
       Script: {instanceID: 12488}
     - Class: 114
-      Script: {instanceID: 12640}
+      Script: {instanceID: 12492}
     - Class: 114
-      Script: {instanceID: 12666}
+      Script: {instanceID: 12528}
     - Class: 114
-      Script: {instanceID: 12688}
+      Script: {instanceID: 12646}
     - Class: 114
-      Script: {instanceID: 12708}
+      Script: {instanceID: 12672}
     - Class: 114
-      Script: {instanceID: 12728}
+      Script: {instanceID: 12694}
     - Class: 114
-      Script: {instanceID: 12802}
+      Script: {instanceID: 12714}
     - Class: 114
-      Script: {instanceID: 12852}
+      Script: {instanceID: 12734}
     - Class: 114
-      Script: {instanceID: 13016}
+      Script: {instanceID: 12808}
     - Class: 114
-      Script: {instanceID: 13350}
+      Script: {instanceID: 12858}
     - Class: 114
-      Script: {instanceID: 13460}
+      Script: {instanceID: 13022}
     - Class: 114
-      Script: {instanceID: 13588}
+      Script: {instanceID: 13274}
     - Class: 114
-      Script: {instanceID: 13656}
+      Script: {instanceID: 13358}
     - Class: 114
-      Script: {instanceID: 13674}
+      Script: {instanceID: 13468}
     - Class: 114
-      Script: {instanceID: 13706}
+      Script: {instanceID: 13596}
     - Class: 114
-      Script: {instanceID: 13780}
+      Script: {instanceID: 13664}
     - Class: 114
-      Script: {instanceID: 13972}
+      Script: {instanceID: 13682}
     - Class: 114
-      Script: {instanceID: 13986}
+      Script: {instanceID: 13714}
     - Class: 114
-      Script: {instanceID: 14032}
+      Script: {instanceID: 13788}
     - Class: 114
-      Script: {instanceID: 14124}
+      Script: {instanceID: 13932}
     - Class: 114
-      Script: {instanceID: 14140}
+      Script: {instanceID: 13982}
     - Class: 114
-      Script: {instanceID: 14194}
+      Script: {instanceID: 13996}
     - Class: 114
-      Script: {instanceID: 48068}
+      Script: {instanceID: 14042}
     - Class: 114
-      Script: {instanceID: 208154}
+      Script: {instanceID: 14134}
     - Class: 114
-      Script: {instanceID: 363658}
+      Script: {instanceID: 14150}
     - Class: 114
-      Script: {instanceID: 410762}
+      Script: {instanceID: 14204}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 121
@@ -272,6 +275,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 9e01b5773c9938062233916f134cae26
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ItemGain
   - hash:
       serializedVersion: 2
       Hash: 726fcf7961cbb4108aa5be5e55b8c8bf
@@ -368,6 +377,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: MotionBlur
+  - hash:
+      serializedVersion: 2
+      Hash: 592d23735fe7f0fa40abb2a1a722d315
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NukeWarning
   - hash:
       serializedVersion: 2
       Hash: f00ca901b734f71f99db8f25241154c4
@@ -832,6 +847,12 @@ ScriptsOnlyBuild:
     className: LookatTarget
   - hash:
       serializedVersion: 2
+      Hash: 2e6fc2bc4ae6955096a93fbfa1a632d2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyStats
+  - hash:
+      serializedVersion: 2
       Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1168,6 +1189,12 @@ ScriptsOnlyBuild:
     className: AeroplanePropellerAnimator
   - hash:
       serializedVersion: 2
+      Hash: e821606f03af57df37fb82ee99eaaa40
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DisableWhileActive
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: 
@@ -1378,6 +1405,12 @@ ScriptsOnlyBuild:
     className: WaterTile
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RigidbodyActivator
+  - hash:
+      serializedVersion: 2
       Hash: 2492fd34c29f5c5d9f040ba6b749b9ed
     assemblyName: Assembly-CSharp.dll
     namespaceName: ModuleGenerator
@@ -1526,31 +1559,7 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Utility
     className: AutoMobileShaderSwitch
-  - hash:
-      serializedVersion: 2
-      Hash: 9e01b5773c9938062233916f134cae26
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ItemGain
-  - hash:
-      serializedVersion: 2
-      Hash: 2e6fc2bc4ae6955096a93fbfa1a632d2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EnemyStats
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: RigidbodyActivator
-  - hash:
-      serializedVersion: 2
-      Hash: 592d23735fe7f0fa40abb2a1a722d315
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: NukeWarning
   platform: 5
   scenePathNames:
   - Assets/Scenes/MainWorld.unity
-  playerPath: D:/Unity Builds/Survival Game Build/Survival Game _Game Tools.exe
+  playerPath: D:/Unity Builds/Survival Game Build 2/Survival Game _Game Tools.exe

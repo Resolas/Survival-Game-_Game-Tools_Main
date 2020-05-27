@@ -51,15 +51,15 @@ public class PlayerStats : MonoBehaviour
     {
         StatsUpdater();
 
+        ConsumeItem();
 
-        
 
     }
 
     private void FixedUpdate()
     {
         nukeFunction();
-        ConsumeItem();
+        
         if (Input.GetMouseButton(0))
         {
             FireGun();

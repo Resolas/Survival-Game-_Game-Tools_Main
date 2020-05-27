@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\BulletScript.cs" />
     <Compile Include="Assets\Scripts\DayNightCycle.cs" />
     <Compile Include="Assets\Scripts\DestroySelf.cs" />
+    <Compile Include="Assets\Scripts\DisableWhileActive.cs" />
     <Compile Include="Assets\Scripts\EnemyScoutAI.cs" />
     <Compile Include="Assets\Scripts\EnemyStats.cs" />
     <Compile Include="Assets\Scripts\Explosion.cs" />
