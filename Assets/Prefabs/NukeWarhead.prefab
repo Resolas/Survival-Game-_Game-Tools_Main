@@ -4872,7 +4872,7 @@ GameObject:
   - component: {fileID: 1658520709}
   m_Layer: 0
   m_Name: NukeWarhead
-  m_TagString: Untagged
+  m_TagString: Nuke
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4906,7 +4906,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  explodeDist: 500
+  explodeDist: 250
   explosion: {fileID: 6400191932719203163, guid: 8b580a0d018192b44ad1fde16f10b9eb,
     type: 3}
 --- !u!1 &8190563497450923717

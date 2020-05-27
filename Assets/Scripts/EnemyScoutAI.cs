@@ -109,7 +109,7 @@ public class EnemyScoutAI : MonoBehaviour
         Vector3 distance = targetObject.position - transform.position;
         float distMg = distance.sqrMagnitude / 1000;
 
-        if (isVisible == true && distMg < range / 2 && PlayerStats.nuke != true)        // If nuke is not launched and within half range and in LOS, countdown
+        if (isVisible == true && distMg < range && PlayerStats.nuke != true)        // If nuke is not launched and within half range and in LOS, countdown
         {
             if (launchTimer >= 0)
             {

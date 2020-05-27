@@ -7,7 +7,7 @@ public class SpawnWeatherFields : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("SpawnWeather",20,20);
+        InvokeRepeating("SpawnWeather",40,40);
     }
 
     public GameObject weather;

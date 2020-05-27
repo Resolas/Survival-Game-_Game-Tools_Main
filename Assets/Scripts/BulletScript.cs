@@ -41,6 +41,13 @@ public class BulletScript : MonoBehaviour
 
             Destroy(gameObject);
         }
+
+        if (other.tag == "Enemy" && enemy == false)
+        {
+            other.GetComponent<EnemyStats>().health -= 10f;
+            Instantiate(effect, transform.position, Quaternion.identity);
+            Destroy(gameObject);
+        }
     }
 
 }

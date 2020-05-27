@@ -77,9 +77,11 @@
     <Compile Include="Assets\Scripts\DayNightCycle.cs" />
     <Compile Include="Assets\Scripts\DestroySelf.cs" />
     <Compile Include="Assets\Scripts\EnemyScoutAI.cs" />
+    <Compile Include="Assets\Scripts\EnemyStats.cs" />
     <Compile Include="Assets\Scripts\Explosion.cs" />
     <Compile Include="Assets\Scripts\GameOptionControls.cs" />
     <Compile Include="Assets\Scripts\HUD.cs" />
+    <Compile Include="Assets\Scripts\ItemGain.cs" />
     <Compile Include="Assets\Scripts\KillScript.cs" />
     <Compile Include="Assets\Scripts\LerpPostRender.cs" />
     <Compile Include="Assets\Scripts\LootTable.cs" />
@@ -88,8 +90,10 @@
     <Compile Include="Assets\Scripts\ModuleState.cs" />
     <Compile Include="Assets\Scripts\MoveForward.cs" />
     <Compile Include="Assets\Scripts\NukeAI.cs" />
+    <Compile Include="Assets\Scripts\NukeWarning.cs" />
     <Compile Include="Assets\Scripts\PlayerPrefs.cs" />
     <Compile Include="Assets\Scripts\PlayerStats.cs" />
+    <Compile Include="Assets\Scripts\RigidbodyActivator.cs" />
     <Compile Include="Assets\Scripts\SpawnWeatherFields.cs" />
     <Compile Include="Assets\Scripts\StructureCheck.cs" />
     <Compile Include="Assets\Scripts\Unused Scripts\BuildingModuleGen.cs" />

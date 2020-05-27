@@ -14,4 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lootList:
   - {fileID: 4809514443655015384, guid: 1b2bc27517916fa41b53aca37a29109d, type: 3}
+  - {fileID: 4809514443655015384, guid: 1b2bc27517916fa41b53aca37a29109d, type: 3}
+  - {fileID: 4809514443655015384, guid: 1b2bc27517916fa41b53aca37a29109d, type: 3}
   - {fileID: 6832579441957058075, guid: e38eb5c27b1c9f84a8d7123e130536d3, type: 3}
+  - {fileID: 6832579441957058075, guid: e38eb5c27b1c9f84a8d7123e130536d3, type: 3}
+  - {fileID: 4158958568118306856, guid: 3fde7c76a4e90174385e19db87edd301, type: 3}

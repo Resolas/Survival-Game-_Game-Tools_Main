@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2806522277502241518}
   - component: {fileID: 2806522277502241519}
   - component: {fileID: 6416624714444355160}
+  - component: {fileID: 1355110179730667381}
   m_Layer: 0
   m_Name: Rubble1
   m_TagString: Untagged
@@ -8016,6 +8017,22 @@ MonoBehaviour:
   - {fileID: 1871849983741729305}
   myLootTable: {fileID: 11400000, guid: d2476abdcb8d61041853b41c7ed09054, type: 2}
   spawnRate: 43
+--- !u!208 &1355110179730667381
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2806522277502241516}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 6.2250004, y: 8.744, z: 6.1590004}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.20600002, y: -0.039, z: -0.15}
+  m_TimeToStationary: 0.5
 --- !u!1 &3825297258100728346
 GameObject:
   m_ObjectHideFlags: 0

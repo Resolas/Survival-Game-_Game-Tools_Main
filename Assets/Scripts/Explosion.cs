@@ -89,7 +89,8 @@ public class Explosion : MonoBehaviour
             if (other.tag == "Player" && isVisible)
             {
                 PlayerStats getStats = other.GetComponent<PlayerStats>();
-                getStats.isDead = true;
+                getStats.health -= 50 * Time.deltaTime;
+                //getStats.isDead = true;
             }
 
             if (other.tag == "Enemy" && isVisible)
