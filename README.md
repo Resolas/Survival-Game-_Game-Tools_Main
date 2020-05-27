@@ -22,7 +22,10 @@ Loot is occasionally spawned amongst the rubble out in the open wasteland aside 
   - Narrative Structures still WIP
   - Building Interiors are not easily explorable due to darkness, makes you feel like in a horror game instead!
   - Vehicles
- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------                                                                                                                                           
+  
+ -----------------------------------------------------------------------------------------------------------------------------           
+            
+  
 Controls:
 Movement - WASD
 Jump - Space
