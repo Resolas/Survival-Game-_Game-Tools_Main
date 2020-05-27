@@ -23,11 +23,3 @@ Loot is occasionally spawned amongst the rubble out in the open wasteland aside 
   - Building Interiors are not easily explorable due to darkness, makes you feel like in a horror game instead!
   - Vehicles
 
-
-Controls:
-Movement - WASD
-Jump - Space
-Select Item - 1, 2, 3
-Use Item - E
-Fire Gun - Left Click
-
