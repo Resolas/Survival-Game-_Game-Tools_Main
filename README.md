@@ -36,9 +36,9 @@ Use Item - E
   ---------------------------------------------------------------------------------------------           
   
   References:
-  Standard Assets - Unity
-  Pro Builder - Unity
-  Atomic Explosion and Sub Rumble.wav - Gowler Music
+  Standard Assets - Unity,
+  Pro Builder - Unity,
+  Atomic Explosion and Sub Rumble.wav - Gowler Music,
   
   
   
