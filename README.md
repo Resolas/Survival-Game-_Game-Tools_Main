@@ -16,8 +16,8 @@ Loot is occasionally spawned amongst the rubble out in the open wasteland aside 
   Major Features that may not have enough time to implement in by submission date
   (Missing Features/WIP)
   - No Enemies in Buildings
-  - Pause Menu does not work in build
-  - Decorated Interiors
+  - Pause Menu does not work in build [FIXED]
+  - Decorated Interiors [WIP]
   - Navmesh generation for Buildings
   - Narrative Structures still WIP
   - Building Interiors are not easily explorable due to darkness, makes you feel like in a horror game instead!
