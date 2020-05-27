@@ -29,3 +29,13 @@ Jump - Space
 Fire - LeftClick
 Select Item - 1,2,3
 Use Item - E
+  
+  ---------------------------------------------------------------------------------------------           
+  
+  References:
+  Standard Assets - Unity
+  Pro Builder - Unity
+  Atomic Explosion and Sub Rumble.wav - Gowler Music
+  
+  
+  
